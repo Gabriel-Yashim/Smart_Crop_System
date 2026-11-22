@@ -42,7 +42,7 @@ html, body, .stApp, [data-testid="stAppViewContainer"], .stMarkdown, button, inp
 [data-testid="stSidebar"], [data-testid="stSidebar"] > div:first-child { background: @sidebar@ !important; }
 .stApp p, .stApp li, .stApp label, .stApp span, .stApp summary, [data-testid="stWidgetLabel"] p { color: @text@; }
 .stApp h1, .stApp h2, .stApp h3, .stApp h4 { color: @ink@; }
-.block-container { max-width: 1280px; padding-top: 2rem; padding-bottom: 3rem; }
+.block-container { max-width: 1180px; padding-top: 2rem; padding-bottom: 3rem; }
 #MainMenu, footer { visibility: hidden; }
 h1, h2, h3, h4 { font-family: 'Fraunces', Georgia, serif; font-weight: 600; letter-spacing: -0.01em; }
 
