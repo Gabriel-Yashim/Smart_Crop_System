@@ -66,7 +66,7 @@ button[data-baseweb="tab"][aria-selected="true"] p { color: @accent@ !important;
 [data-baseweb="tab-border"] { background: @border@ !important; }
 [data-testid="stExpander"] { background: @surface@ !important; border: 1px solid @border@ !important; border-radius: 14px; }
 [data-testid="stExpander"] details summary p, [data-testid="stExpander"] details summary span { color: @ink@ !important; }
-[data-testid="stForm"] { background: @surface@ !important; border: 1px solid @border@ !important; border-radius: 16px; padding: 1.2rem 1.4rem; }
+[data-testid="stForm"] { background: @surface@ !important; border: 1px solid @border@ !important; border-radius: 16px; padding: 1.2rem 1.4rem; width: 100%; }
 [data-testid="stAlert"] { background: @soft@; border: 1px solid @border@; border-radius: 12px; }
 [data-testid="stPageLink"] a { background: @soft@; border: 1px solid @border@; border-radius: 999px; padding: 0.4rem 1rem; text-decoration: none; }
 [data-testid="stPageLink"] a p { color: @accent@ !important; font-weight: 600; }
