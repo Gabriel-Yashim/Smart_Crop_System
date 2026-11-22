@@ -42,7 +42,7 @@ html, body, .stApp, [data-testid="stAppViewContainer"], .stMarkdown, button, inp
 [data-testid="stSidebar"], [data-testid="stSidebar"] > div:first-child { background: @sidebar@ !important; }
 .stApp p, .stApp li, .stApp label, .stApp span, .stApp summary, [data-testid="stWidgetLabel"] p { color: @text@; }
 .stApp h1, .stApp h2, .stApp h3, .stApp h4 { color: @ink@; }
-.block-container { max-width: 1180px; padding-top: 2rem; padding-bottom: 3rem; }
+.block-container { max-width: 1280px; padding-top: 1rem; padding-bottom: 3rem; }
 #MainMenu, footer { visibility: hidden; }
 h1, h2, h3, h4 { font-family: 'Fraunces', Georgia, serif; font-weight: 600; letter-spacing: -0.01em; }
 
@@ -66,7 +66,7 @@ button[data-baseweb="tab"][aria-selected="true"] p { color: @accent@ !important;
 [data-baseweb="tab-border"] { background: @border@ !important; }
 [data-testid="stExpander"] { background: @surface@ !important; border: 1px solid @border@ !important; border-radius: 14px; }
 [data-testid="stExpander"] details summary p, [data-testid="stExpander"] details summary span { color: @ink@ !important; }
-[data-testid="stForm"] { background: @surface@ !important; border: 1px solid @border@ !important; border-radius: 16px; padding: 1.2rem 1.4rem; width: 100%; }
+[data-testid="stForm"] { background: @surface@ !important; border: 1px solid @border@ !important; border-radius: 16px; padding: 1.2rem 1.4rem; }
 [data-testid="stAlert"] { background: @soft@; border: 1px solid @border@; border-radius: 12px; }
 [data-testid="stPageLink"] a { background: @soft@; border: 1px solid @border@; border-radius: 999px; padding: 0.4rem 1rem; text-decoration: none; }
 [data-testid="stPageLink"] a p { color: @accent@ !important; font-weight: 600; }
