@@ -1,0 +1,13 @@
+{
+  "model": "efficientnet_b0",
+  "aug_mode": "robust",
+  "run_dir": "efficientnet_b0_robust",
+  "best_val_macro_f1": 0.96685,
+  "best_val_acc": 0.98249,
+  "best_epoch": 10,
+  "epochs_run": 12,
+  "train_minutes": 69.8,
+  "params_millions": 4.04,
+  "size_mb": 16.4,
+  "cpu_latency_ms": 290.2
+}

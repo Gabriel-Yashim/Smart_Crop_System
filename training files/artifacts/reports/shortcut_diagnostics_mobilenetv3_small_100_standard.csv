@@ -1,0 +1,4 @@
+variant,accuracy,macro_f1
+full,0.9828,0.9693
+border_masked,0.9744,0.9661
+border_only,0.1139,0.0849

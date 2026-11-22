@@ -1,0 +1,7 @@
+run,ring,area_pct,full_acc,masked_acc,only_acc,only_macro_f1,sink_class,sink_share
+mobilenetv3_large_100_robust,0.02,7,0.9783,0.9766,0.1093,0.0604,Corn_Healthy,0.652
+mobilenetv3_large_100_standard,0.02,7,0.981,0.98,0.055,0.0159,Corn_Healthy,0.971
+mobilenetv3_large_100_robust,0.05,19,0.9783,0.9766,0.2521,0.2325,Tomato_Healthy,0.506
+mobilenetv3_large_100_standard,0.05,19,0.981,0.9804,0.128,0.0623,Tomato_Healthy,0.508
+mobilenetv3_large_100_robust,0.125,44,0.9783,0.9673,0.509,0.5098,Tomato_Healthy,0.21
+mobilenetv3_large_100_standard,0.125,44,0.981,0.9604,0.2862,0.2901,Tomato_Healthy,0.556

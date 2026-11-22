@@ -1,0 +1,15 @@
+{
+  "model": "mobilenetv3_large_100",
+  "run_dir": "mobilenetv3_large_100_robust",
+  "n_test_images": 5239,
+  "test_accuracy": 0.975,
+  "test_macro_f1": 0.9668,
+  "test_macro_f1_ci95": [
+    0.9597,
+    0.9728
+  ],
+  "test_weighted_f1": 0.9749,
+  "onnx_cpu_latency_ms": 5.1,
+  "onnx_size_mb": 16.9,
+  "onnx_max_logit_diff": 9.775161743164062e-06
+}

@@ -1,0 +1,5 @@
+features,acc_all_classes,macro_f1_all,acc_within_crop,macro_f1_within_crop
+color + border + corners + file size,0.738,0.694,0.825,0.786
+thin border only (18% of image),0.514,0.48,0.678,0.648
+corners only (6% of image),0.508,0.462,0.677,0.643
+file size only,0.165,0.113,0.413,0.39

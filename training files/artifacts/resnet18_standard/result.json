@@ -1,0 +1,13 @@
+{
+  "model": "resnet18",
+  "aug_mode": "standard",
+  "run_dir": "resnet18_standard",
+  "best_val_macro_f1": 0.96645,
+  "best_val_acc": 0.98051,
+  "best_epoch": 12,
+  "epochs_run": 12,
+  "train_minutes": 38.8,
+  "params_millions": 11.19,
+  "size_mb": 44.8,
+  "cpu_latency_ms": 16.3
+}

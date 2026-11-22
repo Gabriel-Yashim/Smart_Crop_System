@@ -1,0 +1,159 @@
+{
+  "Bell_pepper__Bell_pepper_Bacterial_spot": {
+    "precision": 0.9801980198019802,
+    "recall": 0.9966442953020134,
+    "f1-score": 0.9883527454242929,
+    "support": 298.0
+  },
+  "Bell_pepper__Bell_pepper_Healthy": {
+    "precision": 0.9969879518072289,
+    "recall": 0.993993993993994,
+    "f1-score": 0.9954887218045113,
+    "support": 333.0
+  },
+  "Brinjal__Diseased_Brinjal_Leaf_-_Cercospora_Leaf_Spot": {
+    "precision": 0.9716981132075472,
+    "recall": 0.9903846153846154,
+    "f1-score": 0.9809523809523809,
+    "support": 104.0
+  },
+  "Brinjal__Fresh_Brinjal_Leaf": {
+    "precision": 0.9915966386554622,
+    "recall": 1.0,
+    "f1-score": 0.9957805907172996,
+    "support": 118.0
+  },
+  "Corn__Corn_Common_rust": {
+    "precision": 0.9967741935483871,
+    "recall": 0.9903846153846154,
+    "f1-score": 0.9935691318327974,
+    "support": 312.0
+  },
+  "Corn__Corn_Gray_leaf_spot": {
+    "precision": 0.9829059829059829,
+    "recall": 0.9623430962343096,
+    "f1-score": 0.9725158562367865,
+    "support": 239.0
+  },
+  "Corn__Corn_Healthy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 294.0
+  },
+  "Corn__Corn_Northern_Leaf_Blight": {
+    "precision": 0.9650793650793651,
+    "recall": 0.9838187702265372,
+    "f1-score": 0.9743589743589743,
+    "support": 309.0
+  },
+  "Lettuce__Bacterial": {
+    "precision": 0.9782608695652174,
+    "recall": 0.6338028169014085,
+    "f1-score": 0.7692307692307693,
+    "support": 71.0
+  },
+  "Lettuce__fungal": {
+    "precision": 0.686046511627907,
+    "recall": 1.0,
+    "f1-score": 0.8137931034482758,
+    "support": 59.0
+  },
+  "Lettuce__healthy": {
+    "precision": 1.0,
+    "recall": 0.9902912621359223,
+    "f1-score": 0.9951219512195122,
+    "support": 103.0
+  },
+  "Potato__Potato_Early_blight": {
+    "precision": 0.9772727272727273,
+    "recall": 0.9836601307189542,
+    "f1-score": 0.9804560260586319,
+    "support": 306.0
+  },
+  "Potato__Potato_Healthy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 236.0
+  },
+  "Potato__Potato_Late_blight": {
+    "precision": 0.9967213114754099,
+    "recall": 0.9838187702265372,
+    "f1-score": 0.990228013029316,
+    "support": 309.0
+  },
+  "Tomato__Tomato_Bacterial_spot": {
+    "precision": 0.9680232558139535,
+    "recall": 0.985207100591716,
+    "f1-score": 0.9765395894428153,
+    "support": 338.0
+  },
+  "Tomato__Tomato_Early_blight": {
+    "precision": 0.973421926910299,
+    "recall": 0.9766666666666667,
+    "f1-score": 0.9750415973377704,
+    "support": 300.0
+  },
+  "Tomato__Tomato_Healthy": {
+    "precision": 0.993920972644377,
+    "recall": 0.9790419161676647,
+    "f1-score": 0.9864253393665159,
+    "support": 334.0
+  },
+  "Tomato__Tomato_Late_blight": {
+    "precision": 0.9884057971014493,
+    "recall": 0.9912790697674418,
+    "f1-score": 0.9898403483309144,
+    "support": 344.0
+  },
+  "Tomato__Tomato_Leaf_Mold": {
+    "precision": 1.0,
+    "recall": 0.9898648648648649,
+    "f1-score": 0.9949066213921901,
+    "support": 296.0
+  },
+  "Tomato__Tomato_Mosaic_virus": {
+    "precision": 0.9879518072289156,
+    "recall": 0.9879518072289156,
+    "f1-score": 0.9879518072289156,
+    "support": 249.0
+  },
+  "Tomato__Tomato_Septoria_leaf_spot": {
+    "precision": 0.9814241486068112,
+    "recall": 0.9664634146341463,
+    "f1-score": 0.9738863287250384,
+    "support": 328.0
+  },
+  "Tomato__Tomato_Spider_mites": {
+    "precision": 0.9967320261437909,
+    "recall": 0.9902597402597403,
+    "f1-score": 0.993485342019544,
+    "support": 308.0
+  },
+  "Tomato__Tomato_Target_Spot": {
+    "precision": 0.9901960784313726,
+    "recall": 0.9934426229508196,
+    "f1-score": 0.9918166939443536,
+    "support": 305.0
+  },
+  "Tomato__Tomato_Yellow_Leaf_Curl_Virus": {
+    "precision": 0.9955686853766618,
+    "recall": 0.9970414201183432,
+    "f1-score": 0.9963045084996305,
+    "support": 676.0
+  },
+  "accuracy": 0.9841680621099101,
+  "macro avg": {
+    "precision": 0.974966099300202,
+    "recall": 0.9735983745733011,
+    "f1-score": 0.9715019350250514,
+    "support": 6569.0
+  },
+  "weighted avg": {
+    "precision": 0.9854405039505634,
+    "recall": 0.9841680621099101,
+    "f1-score": 0.9841158539300919,
+    "support": 6569.0
+  }
+}

@@ -1,0 +1,5 @@
+model,aug_mode,run_dir,best_val_macro_f1,best_val_acc,best_epoch,epochs_run,train_minutes,params_millions,size_mb,cpu_latency_ms
+mobilenetv3_large_100,robust,mobilenetv3_large_100_robust,0.97239,0.98006,4,12,36.9,4.23,17.1,137.9
+efficientnet_b0,robust,efficientnet_b0_robust,0.96685,0.98249,10,12,69.8,4.04,16.4,290.2
+mobilenetv3_small_100,robust,mobilenetv3_small_100_robust,0.96294,0.97945,12,12,17.7,1.54,6.3,110.5
+resnet18,robust,resnet18_robust,0.95989,0.9758,11,12,38.6,11.19,44.8,18.9

@@ -1,0 +1,23 @@
+{
+  "input_name": "input",
+  "output_name": "logits",
+  "color_mode": "RGB",
+  "resize": [
+    224,
+    224
+  ],
+  "resize_note": "resize the whole image to a square, no center crop",
+  "scale": "divide pixel values by 255 first",
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "layout": "NCHW float32",
+  "output": "raw logits, apply softmax"
+}

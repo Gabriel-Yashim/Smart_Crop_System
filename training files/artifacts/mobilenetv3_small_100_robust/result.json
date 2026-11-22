@@ -1,0 +1,13 @@
+{
+  "model": "mobilenetv3_small_100",
+  "aug_mode": "robust",
+  "run_dir": "mobilenetv3_small_100_robust",
+  "best_val_macro_f1": 0.96294,
+  "best_val_acc": 0.97945,
+  "best_epoch": 12,
+  "epochs_run": 12,
+  "train_minutes": 17.7,
+  "params_millions": 1.54,
+  "size_mb": 6.3,
+  "cpu_latency_ms": 110.5
+}

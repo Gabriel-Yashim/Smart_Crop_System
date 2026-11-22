@@ -1,0 +1,1 @@
+streamlit run "\Users\Gabriel_Yashim\Documents\GitHub\...\main_app\app.py"

@@ -1,0 +1,5 @@
+{
+  "best_model": "mobilenetv3_small_100",
+  "run_dir": "mobilenetv3_small_100_standard",
+  "reason": "highest val macro F1 is 0.9715; 3 model(s) within 0.005 of it; smallest file among them chosen"
+}

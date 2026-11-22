@@ -1,0 +1,13 @@
+{
+  "model": "mobilenetv3_large_100",
+  "aug_mode": "standard",
+  "run_dir": "mobilenetv3_large_100_standard",
+  "best_val_macro_f1": 0.968,
+  "best_val_acc": 0.98295,
+  "best_epoch": 11,
+  "epochs_run": 12,
+  "train_minutes": 472.8,
+  "params_millions": 4.23,
+  "size_mb": 17.1,
+  "cpu_latency_ms": 172.1
+}
