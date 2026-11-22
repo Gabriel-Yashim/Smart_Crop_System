@@ -222,16 +222,15 @@ def render():
 
     with st.form("crop_form"):
         soil, climate = st.columns(2, gap="large")
+        c1, c2 = st.columns(2)
         with soil:
             st.markdown("#### Soil")
-            s1, s2 = st.columns(2)
-            N = s1.number_input("Nitrogen (N)", 0, 200, 60, help="Nitrogen content in soil (mg/kg). Typical range 0 to 179.")
-            P = s2.number_input("Phosphorus (P)", 0, 150, 50, help="Phosphorus content in soil (mg/kg). Typical range 5 to 145.")
-            K = s1.number_input("Potassium (K)", 0, 210, 40, help="Potassium content in soil (mg/kg). Typical range 5 to 205.")
-            ph = s2.number_input("Soil pH", 3.0, 14.0, 6.5, step=0.01, help="Typical range 3.5 to 9.9.")
+            N = c1.number_input("Nitrogen (N)", 0, 200, 60, help="Nitrogen content in soil (mg/kg). Typical range 0 to 179.")
+            P = c2.number_input("Phosphorus (P)", 0, 150, 50, help="Phosphorus content in soil (mg/kg). Typical range 5 to 145.")
+            K = c1.number_input("Potassium (K)", 0, 210, 40, help="Potassium content in soil (mg/kg). Typical range 5 to 205.")
+            ph = c2.number_input("Soil pH", 3.0, 14.0, 6.5, step=0.01, help="Typical range 3.5 to 9.9.")
         with climate:
             st.markdown("#### Climate")
-            c1, c2 = st.columns(2)
             temperature = c1.number_input("Temperature (°C)", 0.0, 50.0, 25.0, step=0.1, help="Typical range 8 to 44 °C.")
             humidity = c2.number_input("Humidity (%)", 0.0, 100.0, 50.0, step=0.1, help="Typical range 0 to 100 %.")
             rainfall = c1.number_input("Rainfall (mm)", 20.0, 300.0, 100.0, step=0.5, help="Typical range 20 to 298 mm.")
